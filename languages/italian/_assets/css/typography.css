@@ -1,0 +1,512 @@
+@media all {
+
+	html * { font-size:1em; }
+
+
+	textarea,
+	pre,
+	code,
+	kbd,
+	samp,
+	var,
+	tt {
+		font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	}
+
+	/* (en) base layout gets standard font size 14px */
+	/* (de) Basis-Layout erhält Standardschriftgröße von 14 Pixeln */
+	body {
+	font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+	font-size: 200 125%/2.0
+	color:#111;
+	/* Changes all text here -(en) Prevent auto-scaling of text in mobile webkit browsers */
+		/* (de) Automatische Schriftvergrößerung in mobilen Webkit-Browsern vermeiden */
+		-webkit-text-size-adjust:100%;
+	}
+
+	/*--- Headings | Überschriften ------------------------------------------------------------------------*/
+
+	h1x, /*change for uppercase h1*/
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	color:#111;
+	margin:0;
+	text-transform: uppercase;
+	}
+
+	h1 {
+		font-weight: bold;
+	font-size:1.6em;
+	line-height: 100%;
+	margin: 0.2em 0 0;
+	text-shadow: 0px 2px 2px rgba(0,0,0,.5);
+	}
+
+	h2 {
+	font-size:1.4em;
+	font-weight: bold;
+	/*line-height: 100%;*/
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	/* [disabled]margin-top: 0.8em; */
+	margin-right: 0;
+	margin-bottom: 0.4em;
+	margin-left: 0;
+	line-height:140%; /*Change this for space between lines */
+	}
+
+	h3 {
+		font-weight: bold;
+	font-size:1.2em;
+	/*line-height: 100%;*/
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	margin-top: 1em;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+	font-weight: bold;
+	font-variant: normal;
+	line-height:140%; /*Change this for space between lines */
+	}
+
+	h4 {
+		font-weight: bold;
+		font-size:1em;
+		line-height: 1.125em;
+		margin:1.125em 0 0 0;
+	}
+
+	h5 {
+		font-weight: bold;
+	font-size:1em;
+	line-height: 100%;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 0.8em;
+	margin-right: 0;
+	margin-bottom: 0.8em;
+	margin-left: 0;
+	}
+
+	h6 {
+		font-weight: bold;
+		font-size:100%;
+		line-height: 1.5em;
+		margin: 1.5em 0 0 0;
+	}
+
+	/* --- Lists | Listen  -------------------------------------------------------------------------------- */
+
+	ul,
+	ol,
+	dl {
+	font-size:1em;
+	line-height:1.5em;
+	margin: 0em 0 0 1em;
+	}
+
+	ul {
+	list-style-type:disc;
+	}
+
+	ol {
+		list-style-type:decimal;
+	}
+
+	ul ul {
+		list-style-type:circle;
+		margin-top:0;
+	}
+
+	ol ol {
+		list-style-type:lower-latin;
+		margin-top:0;
+	}
+
+	ol ul {
+		list-style-type:circle;
+		margin-top:0;
+	}
+
+	li {
+	line-height:1.5em;
+	margin-left:0.8em;
+	}
+
+	dt { font-weight:bold; }
+
+	dd { margin:0 0 1.5em 0.8em; }
+
+	/* --- general text formatting | Allgemeine Textauszeichnung ------------------------------------------ */
+
+	p {
+	font-size:110%;
+	line-height: 1.2em; /*Change text size here add: font-size:120%;*/
+	padding-top: .5em;
+	padding-bottom: 0.5em;
+	line-height:150%; /*Change this for space between lines in paragraphs*/
+	}
+
+	blockquote, cite, q {
+		font-style:italic;
+	}
+
+	blockquote {
+	margin:1.5em 0 0 1.5em;
+	color:#555;
+	}
+
+	strong, b { font-weight:bold; }
+
+	em, i { font-style:italic; }
+
+	big {
+		font-size:116.667%;
+	}
+
+	small {
+		font-size:85.71%;
+	}
+
+	pre,
+	code,
+	kbd,
+	tt,
+	samp,
+	var {
+		font-size:100%;
+	}
+
+	pre {
+		line-height:1.5em;
+		margin: 1.5em 0 0 0;
+		white-space: pre;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+	pre, code { color:#800; }
+
+	kbd, samp, var, tt {
+		color:#666;
+		font-weight:bold;
+	}
+
+	var, dfn { font-style:italic; }
+
+	acronym, abbr {
+		border-bottom:1px #aaa dotted;
+		font-variant:small-caps;
+		letter-spacing:.07em;
+		cursor:help;
+	}
+
+	sub,
+	sup {
+		font-size: 75%;
+		line-height: 0;
+		position: relative;
+		vertical-align: baseline;
+	}
+
+	sup { top: -0.5em; }
+	sub { bottom: -0.25em; }
+
+	mark {
+		background: #ff0;
+		color: #000;
+	}
+
+	hr {
+	display: none;
+	visibility: hidden;
+	color:#fff;
+	background:transparent;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+	border-top-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	}
+
+	/*--- Links ----------------------------------------------------------------------------------------- */
+
+	a {
+	color:#000000;
+	background:transparent;
+	text-decoration:none;
+	/*a:hover {text-decoration:none;background-color:#000000;color:#FEFEFC}*/
+	}
+
+	a:active { outline: none; }
+
+	/* (en) maximum constrast for tab focus - change with great care */
+	/* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
+	a:hover, /*.nav>li>a:hover{text-decoration:none;background-color:#x9D261D;color:#FEFEFC}*/
+	a:focus {
+	color:#000000;
+	/*text-decoration:underline;*/
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	/*text-decoration:none;background-color:#000000;color:#FEFEFC;*/ /*take out this if no white on black hover*/
+	}
+
+	/* --- images ------------------ */
+
+	img,
+	figure {
+		margin: 0;
+	}
+
+	.flexible {
+		margin-top: 1.5em;
+		max-width: 100%;
+		height: auto;
+	}
+
+	* html .flexible {	/* IE6 support */
+		width: 98%;		/* 2% space for borders */
+	}
+
+	.bordered {
+		margin-top: 1.5em;
+		border: 2px #eee solid;
+		border: 2px rgba(255,255,255,1) solid;
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.25);
+		-moz-box-shadow: 0 0 3px rgba(0,0,0,.25);
+		box-shadow: 0 0 3px rgba(0,0,0,.25);
+	}
+	.word {
+	color: #000000;
+}
+
+	/**
+	* ----------------------------------------------------------------------- #
+	*
+	* Generic Content Classes
+	*
+	* (en) standard classes for positioning and highlighting
+	* (de) Standardklassen zur Positionierung und Hervorhebung
+	*
+	* @section content-generic-classes
+	*/
+	.highlight {
+		color:#000000;
+	}
+
+	.dimmed {
+	color:#888;
+	font-size: 90%;
+	text-transform: capitalize;
+	font-style: italic;
+	font-variant: normal;
+	}
+	.faded {
+	display: none;
+	visibility: hidden;
+	color:#888;
+	font-size: 90%;
+	text-transform: none;
+	font-style: normal;
+	font-variant: normal;
+	}
+	.faded2 {
+	color:#888;
+	font-size: 100%;
+	text-transform: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: uppercase;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+	}
+	.faded3 {
+	color:#888;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+  font: 400 100%/2.0 Helvetica, Arial, Verdana, sans-serif;
+  border-bottom: 1px solid #fff;
+	}
+
+
+	.box {
+		border-radius: 0.3em;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #888;
+		border-color: rgba(0,0,0,.3);
+		-webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2) inset;
+		-moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2) inset;
+		box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2) inset;
+		color: #444;
+		color: rgba(0,0,0,.8);
+		padding: 1.4286em;
+		margin: 1.5em 0 0 0;
+	}
+
+	.box > *:first-child {
+		margin-top: 0;
+	}
+
+	.label {
+	padding: 2px 4px 3px 4px;
+	display: inline-block;
+	vertical-align:central;
+	letter-spacing: normal;
+	white-space:nowrap;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #000000;
+	color: #FEFEFC;
+	/* [disabled]font-size: 90%; */
+	text-transform: uppercase;
+	font-size: .7em;
+	line-height: 1em;
+	font-weight: bold;
+	}
+
+	.info {
+		background:#f4f4f4;
+	}
+
+	.success {
+		background:#8c8;
+	}
+
+	.warning {
+		background:#cc8;
+	}
+
+	.error {
+		background:#c88;
+	}
+
+	.float-left {
+		float:left;
+		display:inline;
+		margin: 1.5em 1em 0 0;
+	}
+
+	.float-right {
+	float:right;
+	display:inline;
+	margin: 0;
+	}
+
+	.alignCenter {
+		display:block;
+		text-align:center;
+		margin: 1.5em auto 0 auto;
+	}
+.alignRight {
+	display:block;
+	text-align:right;
+	margin: 0;
+}
+
+
+	/**
+	* ------------------------------------------------------------------------------------------------- #
+	*
+	* Tables | Tabellen
+	*
+	* (en) Generic classes for table-width and design definition
+	* (de) Generische Klassen für die Tabellenbreite und Gestaltungsvorschriften für Tabellen
+	*
+	* @section content-tables
+	*/
+
+	table {
+	/* [disabled]width:100%; */
+	/* [disabled]border-collapse:collapse; */
+	/* [disabled]margin: 1.3571em 0 0 0; */
+	/* [disabled]color:#333; */
+	/* [disabled]border-top: 1px #ccc solid; */
+	/* [disabled]border-bottom: 1px #ccc solid; */
+	}
+
+	table.narrow {
+	/* [disabled]margin:  1.4286em 0 0 0; */
+	}
+
+	table.narrow th,
+	table.narrow td {
+		padding: 0 0.5em;
+		line-height: 1.4286em;
+	}
+
+	table.bordertable {
+		border:1px #ccc solid;
+	}
+
+	table caption {
+		font-variant:small-caps;
+	}
+
+	th, td {
+	/* [disabled]line-height: 1.5em; */
+	/* [disabled]vertical-align: top; */
+	/* [disabled]padding: 0.7143em 0.5em; */
+	}
+
+	th *:first-child,
+	td *:first-child {
+		margin-top: 0;
+	}
+
+	th.nowrap,
+	td.nowrap {
+		white-space: nowrap;
+	}
+
+	thead th {
+		text-align: left;
+		color:#000;
+		border-bottom:2px #000 solid;
+	}
+
+	.bordertable thead th {
+		background:#e0e0e0;
+		border-right:1px #ccc solid;
+		border-bottom:1px #ccc solid;
+	}
+
+	.bordertable tbody th[scope="row"] {
+		background:#f0f0f0;
+	}
+
+	tbody th {
+	text-align: left;
+	/* [disabled]border-top:1px solid #ccc; */
+	/* [disabled]text-align:left; */
+	}
+
+	.bordertable tbody th {
+		border-right:1px solid #ccc;
+	}
+
+	tbody td {
+	/* [disabled]text-align: left; */
+	/* [disabled]border-top:1px solid #ccc; */
+	}
+
+	.bordertable tbody td {
+		border-right:1px solid #ccc;
+	}
+
+	/* highlight row on mouse over */
+	tbody tr:hover th,
+	tbody tr:hover td {
+		background:#f8f8f8;
+	}
+}
