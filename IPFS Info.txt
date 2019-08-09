@@ -11,7 +11,7 @@ Name: The Eternal Word
 
 ENS: http://eternalword.eth.link
 
-Latest IPFS Hash: 
+Latest IPFS Hash: QmVvyb8tWqFgjqArrX8yYofrMfcFpQLMLtrfoeSdekv8g1
 
 Old Hashed------------------------------------------------------
 
