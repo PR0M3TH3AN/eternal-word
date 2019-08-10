@@ -13,6 +13,12 @@ ENS: http://eternalword.eth.link
 
 Latest IPFS Hash: QmVvyb8tWqFgjqArrX8yYofrMfcFpQLMLtrfoeSdekv8g1
 
+----------------------------------------------------------------
+
+To see howmany people are hosting run the following command:
+
+ipfs dht findprovs (content hash)
+
 Old Hashed------------------------------------------------------
 
 v1. QmYe9V9nGVbv9PvswifjRJPBhaGoJE1HeS8ZzU41ZuB1DB
