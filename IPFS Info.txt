@@ -3,7 +3,7 @@
 
 
 
-Command: ipfs add C:\Users\adamb\IPFS\ETERNAL-WORD-PROJECT\eternal-word -r
+Command: ipfs add C:\Users\[username]\IPFS\ETERNAL-WORD-PROJECT\eternal-word -r
 
 ----------------------------------------------------------------
 
