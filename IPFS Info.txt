@@ -1,4 +1,4 @@
-Command: ipfs add C:\Users\adamb\Documents\GitHub\eternal-word -r
+Command: ipfs add C:\Users\"username"\Documents\GitHub\eternal-word -r
 
 ----------------------------------------------------------------
 
