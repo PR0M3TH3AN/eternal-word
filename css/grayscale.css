@@ -302,3 +302,12 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.fa {
+  padding: 40px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
