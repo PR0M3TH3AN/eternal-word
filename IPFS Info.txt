@@ -10,7 +10,7 @@ Latest IPFS Hash: Qme1sKNjpKBnGF97ZzFMBYSJZ2FHMVqcTVPs8DNGn6AzRZ
 
 ----------------------------------------------------------------
 
-To see howmany people are hosting run the following command:
+To see how many people are hosting run the following command:
 
 ipfs dht findprovs (content hash)
 
