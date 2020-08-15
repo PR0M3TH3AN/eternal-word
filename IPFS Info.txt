@@ -4,9 +4,11 @@ Command: ipfs add C:\Users\"username"\Documents\GitHub\eternal-word -r
 
 Name: The Eternal Word
 
-ENS: http://eternalword.eth.link
+ENS: http://eternalword.xyz
 
-Latest IPFS Hash: QmdKBbtkJP9GWZfZd1UoLGRAwCAxvJ38TafrxMGAJR9oJ9
+https://ipfs.io/ipfs/Qmaha49CAncSKbvZPYUwS1pT7LSC6SnWGBhoNY3mUSYy7U
+
+Latest IPFS Hash: Qmaha49CAncSKbvZPYUwS1pT7LSC6SnWGBhoNY3mUSYy7U
 
 ----------------------------------------------------------------
 
@@ -25,4 +27,4 @@ Release Versions------------------------------------------------
 
 V1.0   Qme1sKNjpKBnGF97ZzFMBYSJZ2FHMVqcTVPs8DNGn6AzRZ
 V1.0.1 QmdKBbtkJP9GWZfZd1UoLGRAwCAxvJ38TafrxMGAJR9oJ9
-V1.0.2 
+V1.0.2 Qmaha49CAncSKbvZPYUwS1pT7LSC6SnWGBhoNY3mUSYy7U
