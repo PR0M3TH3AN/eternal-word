@@ -23,3 +23,4 @@ jobs:
           upload-dir: build
           github-token: ${{ secrets.GITHUB_TOKEN }}
           registry-seed: ${{ secrets.SKYNET_REGISTRY_SEED || '' }}
+          
