@@ -1,6 +1,6 @@
 name: deploy-to-skynet
 
-on: [workflow_dispatch]
+on:
     
   pull_request:
   push:
