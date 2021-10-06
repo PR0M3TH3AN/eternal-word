@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@main
 
       - name: Deploy to Skynet
-        uses: skynetlabs/deploy-to-skynet-action@main
+        uses: skynetlabs/deploy-to-skynet-action@v2
 
         with:
           upload-dir: src
