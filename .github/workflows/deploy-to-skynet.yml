@@ -1,7 +1,6 @@
 name: deploy-to-skynet
 
 on:
-    
   pull_request:
   push:
     branches: [main]
@@ -11,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v2
 
       - name: Deploy to Skynet
         uses: skynetlabs/deploy-to-skynet-action@main
@@ -20,5 +19,3 @@ jobs:
           upload-dir: src
           github-token: ${{ secrets.GITHUB_TOKEN }}
           registry-seed: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.REGISTRY_SEED || '' }}
-
-
