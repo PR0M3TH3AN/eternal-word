@@ -1,0 +1,28 @@
+{
+  "background_color": "#fff",
+  "display": "standalone",
+  "homepage_url": "https://eternalword.eth.link",
+  "providedBy": { "name": "Synapse Sound", "url": "https://eternalword.xyz" },
+  "icons": [
+    {
+      "src": "./img/webclip.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./img/webclip.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "name": "Synapse Sound",
+  "description": "Making Sound Connections",
+  "iconPath": "./img/webclip.png",
+  "short_name": "SynapseSound",
+  "start_url": "./index.html",
+  "theme_color": "#64A19D",
+  "skylink": ""
+}

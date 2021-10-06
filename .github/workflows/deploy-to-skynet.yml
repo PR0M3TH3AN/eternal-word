@@ -1,6 +1,7 @@
-name: Deploy to Skynet
+name: deploy-to-skynet
 
 on:
+  pull_request:
   push:
     branches: [main]
 
@@ -10,17 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16.x
 
-      - run: yarn
-      - run: yarn build
+      - name: Deploy to Skynet
+        uses: skynetlabs/deploy-to-skynet-action@main
 
-      - name: "Deploy to Skynet"
-        uses: SkynetLabs/deploy-to-skynet-action@v2
         with:
-          upload-dir: build
+          upload-dir: src
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          registry-seed: ${{ secrets.SKYNET_REGISTRY_SEED || '' }}
-          
+          registry-seed: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.REGISTRY_SEED || '' }}
